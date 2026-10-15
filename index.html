@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10121d">
+
+  <meta name="description"
+    content="The personal portfolio of Mathew Kiptoo Lang'at, a junior software engineer based in Nairobi, Kenya.">
+
+  <title>Mathew Kiptoo Lang'at | Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Mathew home">
+        <span class="logo-mark">M.</span>
+        <span>Mathew Kiptoo Lang'at</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <div class="availability">
+            <span class="status-dot"></span>
+            Open to opportunities
+          </div>
+
+          <p class="eyebrow">JUNIOR SOFTWARE ENGINEER · NAIROBI, KENYA</p>
+
+          <h1>
+            I build digital things with <span>purpose.</span>
+          </h1>
+
+          <p class="hero-description">
+            Hello, I'm Mathew. I enjoy turning ideas into clean,
+            useful and responsive web experiences. I'm always
+            learning, building and looking for ways to improve.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Explore my work <span>↘</span>
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+              Get in touch <span>↗</span>
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-line"></span>
+            Focused on learning, problem-solving and creating useful things.
+          </div>
+        </div>
+
+        <!-- Code editor illustration -->
+        <div class="hero-visual">
+          <div class="glow"></div>
+
+          <div class="floating-tag tag-top">
+            <span class="tag-icon">&lt;/&gt;</span>
+            Clean code
+          </div>
+
+          <div class="code-window">
+            <div class="window-bar">
+              <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="window-filename">about-me.js</span>
+              <span class="window-menu">•••</span>
+            </div>
+
+            <div class="code-content">
+              <div><span class="line-number">01</span>
+                <span class="code-purple">const</span>
+                <span class="code-blue">developer</span> = {
+              </div>
+
+              <div><span class="line-number">02</span>
+                &nbsp;&nbsp;name:
+                <span class="code-green">"Mathew Kiptoo Lang'at"</span>,
+              </div>
+
+              <div><span class="line-number">03</span>
+                &nbsp;&nbsp;role:
+                <span class="code-green">"Software Engineer"</span>,
+              </div>
+
+              <div><span class="line-number">04</span>
+                &nbsp;&nbsp;location:
+                <span class="code-green">"Nairobi, Kenya"</span>,
+              </div>
+
+              <div><span class="line-number">05</span>
+                &nbsp;&nbsp;skills: [
+              </div>
+
+              <div><span class="line-number">06</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">"HTML"</span>,
+                <span class="code-orange">"CSS"</span>,
+              </div>
+
+              <div><span class="line-number">07</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">"JavaScript"</span>
+              </div>
+
+              <div><span class="line-number">08</span>
+                &nbsp;&nbsp;],
+              </div>
+
+              <div><span class="line-number">09</span>
+                &nbsp;&nbsp;mindset:
+                <span class="code-green">"Keep learning"</span>
+              </div>
+
+              <div><span class="line-number">10</span>};</div>
+
+              <div class="code-comment">
+                <span class="line-number">11</span>
+                // Always improving, one project at a time.
+              </div>
+
+              <div class="code-cursor">_</div>
+            </div>
+
+            <div class="code-footer">
+              <span><span class="status-dot"></span> Ready to build</span>
+              <span>UTF-8 · JavaScript</span>
+            </div>
+          </div>
+
+          <div class="floating-tag tag-bottom">
+            <span class="sparkle">✳</span>
+            Built with curiosity
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-line"></span>
+        <span>01 / 04</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+          <h2>Curiosity first.<br><span>Progress always.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="large-copy">
+              I believe good technology should be
+              <span>useful, accessible and easy to use.</span>
+            </p>
+
+            <p>
+              I'm an aspiring software professional based in Nairobi,
+              Kenya. I enjoy learning how websites work, writing code
+              and solving problems through technology.
+            </p>
+
+            <p>
+              I approach each project as an opportunity to grow.
+              I'm developing my technical skills, improving my
+              attention to detail and learning to turn requirements
+              into practical digital experiences.
+            </p>
+
+            <a href="#contact" class="text-link">
+              Let's work together <span>↗</span>
+            </a>
+          </div>
+
+          <div class="about-card">
+            <div class="about-card-icon">&lt;/&gt;</div>
+            <p class="eyebrow">MY APPROACH</p>
+
+            <div class="approach-item">
+              <span class="approach-number">01</span>
+              <div>
+                <h3>Stay curious</h3>
+                <p>Keep exploring new tools and ideas.</p>
+              </div>
+            </div>
+
+            <div class="approach-item">
+              <span class="approach-number">02</span>
+              <div>
+                <h3>Build with purpose</h3>
+                <p>Focus on real needs and clear solutions.</p>
+              </div>
+            </div>
+
+            <div class="approach-item">
+              <span class="approach-number">03</span>
+              <div>
+                <h3>Improve continuously</h3>
+                <p>Learn from feedback and every project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / WHAT I WORK WITH</p>
+          <h2>My technical <span>toolkit.</span></h2>
+          <p class="section-description">
+            The technologies I'm learning and using to create
+            modern web experiences.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-symbol html-symbol">5</div>
+            <h3>HTML5</h3>
+            <p>Semantic structure and accessible web content.</p>
+            <span class="skill-category">STRUCTURE</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-symbol css-symbol">#</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, styling and animations.</p>
+            <span class="skill-category">DESIGN</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-symbol js-symbol">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive interfaces and browser functionality.</p>
+            <span class="skill-category">INTERACTIVITY</span>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-symbol git-symbol">⌘</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and managing code changes.</p>
+            <span class="skill-category">WORKFLOW</span>
+          </article>
+        </div>
+
+        <p class="skills-note">
+          My toolkit is growing as I gain experience through practice
+          and personal projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Ideas into <span>experiences.</span></h2>
+          <p class="section-description">
+            A place to showcase practical work, experiments and
+            projects that demonstrate my development skills.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Replace this sample card with a real project -->
+          <article class="project-card">
+            <div class="project-preview preview-one">
+              <div class="mini-browser">
+                <div class="mini-browser-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mini-business">
+                  <div class="mini-nav">STUDIO<span>MENU +</span></div>
+                  <div class="mini-heading">Ideas made<br>digital.</div>
+                  <div class="mini-line"></div>
+                  <div class="mini-button">DISCOVER MORE ↗</div>
+                </div>
+              </div>
+              <span class="preview-label">01 / WEB DESIGN</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span>Web Development</span>
+                <span class="project-status">Sample concept</span>
+              </div>
+              <h3>Business Website</h3>
+              <p>
+                A concept for a clean business website focused on
+                clear messaging, responsive design and easy navigation.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-note">
+                Replace with your real project before sharing.
+              </span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-two">
+              <div class="mini-dashboard">
+                <div class="dashboard-sidebar">
+                  <div class="dash-logo">M.</div>
+                  <span class="dash-active">▦</span>
+                  <span>◷</span>
+                  <span>⚙</span>
+                </div>
+                <div class="dashboard-main">
+                  <span class="dashboard-caption">YOUR WORKSPACE</span>
+                  <div class="dashboard-title">Project overview</div>
+                  <div class="dashboard-widgets">
+                    <div></div><div></div><div></div>
+                  </div>
+                  <div class="dashboard-chart">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <span class="preview-label">02 / UI CONCEPT</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span>Interface Design</span>
+                <span class="project-status">Sample concept</span>
+              </div>
+              <h3>Productivity Dashboard</h3>
+              <p>
+                A dashboard concept exploring information hierarchy,
+                reusable interface elements and simple visual design.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>UI Design</span>
+              </div>
+              <span class="project-note">
+                Replace with your real project before sharing.
+              </span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-three">
+              <div class="mini-app">
+                <div class="app-top">
+                  <span>DAILY FOCUS</span>
+                  <span>✳</span>
+                </div>
+                <div class="app-greeting">Make today<br><span>count.</span></div>
+                <div class="app-task">
+                  <span class="task-check">✓</span>
+                  <span>Learn something new</span>
+                </div>
+                <div class="app-task">
+                  <span class="task-check"></span>
+                  <span>Build a small project</span>
+                </div>
+                <div class="app-task">
+                  <span class="task-check"></span>
+                  <span>Review your progress</span>
+                </div>
+              </div>
+              <span class="preview-label">03 / JAVASCRIPT</span>
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta">
+                <span>Interactive Application</span>
+                <span class="project-status">Sample concept</span>
+              </div>
+              <h3>Daily Task Planner</h3>
+              <p>
+                A concept for a simple task planner with an emphasis
+                on interaction, clarity and a straightforward user flow.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>DOM</span><span>CSS</span>
+              </div>
+              <span class="project-note">
+                Replace with your real project before sharing.
+              </span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-footer">
+          <p>Have a project or an opportunity in mind?</p>
+          <a href="#contact" class="text-link">
+            Let's talk about it <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-glow"></div>
+
+          <div class="contact-content">
+            <p class="eyebrow">04 / GET IN TOUCH</p>
+            <h2>Let's build something<br><span>meaningful.</span></h2>
+            <p class="contact-description">
+              I'm open to discussing opportunities, collaborating
+              on projects and connecting with people who enjoy
+              building useful things with technology.
+            </p>
+
+            <a class="button button-primary"
+              href="mailto:mklangat2524@gmail.com?subject=Portfolio%20Enquiry">
+              Send me an email <span>↗</span>
+            </a>
+          </div>
+
+          <div class="contact-details">
+            <p class="eyebrow">CONTACT DETAILS</p>
+
+            <a href="mailto:mklangat2524@gmail.com" class="contact-link">
+              <span class="contact-icon">✉</span>
+              <span>
+                <small>Email</small>
+                mklangat2524@gmail.com
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="tel:+254180673531" class="contact-link">
+              <span class="contact-icon">☎</span>
+              <span>
+                <small>Phone</small>
+                +254 180 673 531
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="tel:+254742885433" class="contact-link">
+              <span class="contact-icon">☎</span>
+              <span>
+                <small>Alternative phone</small>
+                +254 742 885 433
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="https://wa.me/254180673531"
+              target="_blank" rel="noopener noreferrer"
+              class="contact-link">
+              <span class="contact-icon">↗</span>
+              <span>
+                <small>WhatsApp</small>
+                Message me
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">
+        <span class="logo-mark">M.</span>
+        <span>Mathew Kiptoo Lang'at</span>
+      </a>
+
+      <p>Designed and built with care.</p>
+
+      <a href="#home" class="back-to-top">
+        Back to top ↑
+      </a>
+    </div>
+
+    <div class="container copyright">
+      <p>© <span id="year"></span> Mathew Kiptoo Lang'at. All rights reserved.</p>
+      <p>Made in Nairobi, Kenya.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
